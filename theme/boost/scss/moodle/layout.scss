@@ -35,6 +35,7 @@
 
 #page.drawers {
     margin-top: $navbar-height;
+    min-height: calc(100vh - #{$navbar-height});
     @include thin-scrolls($gray-100);
     .main-inner {
         max-width: 100%;
